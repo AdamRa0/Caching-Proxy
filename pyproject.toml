@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "proxy"
+version = "0.1.0"
+description = "CLI tool that forwards requests and caches responses"
+authors = ["Adam Rao"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Flask = "^3.0.3"
+click = "^8.1.7"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pproxy = "proxy:cli"
