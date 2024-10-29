@@ -25,3 +25,8 @@ To run this project locally
 ```
 
 Visit browser and being using the proxy. For instance, if ORIGIN set to https://reddit.com, visiting localhost:5000/r/asm will take you to the asm subreddit
+
+
+## Future Plans
+- Cache responses to redis.
+- Adding option to clear cache
